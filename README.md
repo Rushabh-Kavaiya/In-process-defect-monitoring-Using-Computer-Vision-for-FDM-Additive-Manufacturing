@@ -25,6 +25,7 @@ To run our model locally, only this folder is required; the rest are experiments
 ### **Training Code (.ipynb)**
 - `In_process_defect_monitoring_Using_Computer_Vision_for_FDM_Additive_Manufacturing.ipynb` – Notebook containing the final training procedure with last optimized hyperparameters.
 
+### **Live DEMO Vidio file**
 ---
 
 ## 2. ML Algorithm Comparison
