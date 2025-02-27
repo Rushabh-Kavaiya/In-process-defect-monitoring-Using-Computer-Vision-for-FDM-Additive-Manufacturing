@@ -52,3 +52,17 @@ Fine-tuning experiments conducted on different datasets to optimize hyperparamet
   - Various `.png` files showing graphical performance insights.
 
 Each subfolder contains results from experiments with different hyperparameter sets, sorted by performance.
+
+
+## Authors & Acknowledgments
+This research was conducted using open-source tools. Special thanks to:
+
+- **YOLO** - Open-source object detection framework.
+- **Detectron2** - Facebook AI's object detection library.
+- **SSD MobileNet** - A lightweight detection model from Tenserflow API.
+- **RT-DETR** - Real-time detection transformer developed by Baidu Research.
+
+Dataset collection from TC campus, Which also avalible on request.
+All contributions and open-source resources are greatly appreciated.
+
+
