@@ -60,7 +60,7 @@ Each subfolder contains results from experiments with different hyperparameter s
 ## Authors & Acknowledgments
 This research was conducted using open-source model and tools. Special thanks to:
 
-- **YOLO** - Open-source object detection framework.
+- **YOLO** - Open-source object detection framework Developed by Ultralytics.
 - **Detectron2** - Facebook AI's object detection library.
 - **SSD MobileNet** - A lightweight detection model from Tenserflow API.
 - **RT-DETR** - Real-time detection transformer developed by Baidu Research.
