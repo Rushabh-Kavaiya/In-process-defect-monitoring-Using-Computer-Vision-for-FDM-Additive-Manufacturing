@@ -5,6 +5,9 @@
 
 This project implements real-time defect monitoring using computer vision and YOLO (You Only Look Once) for FDM-THD (Fused Deposition Modeling). It detects defects such as cracks, layer shifts, spaghetti, and stringing during 3D printing. When a defect is detected above a certain threshold, an alarm sound is played. The system provides a graphical user interface (GUI) for monitoring defects and adjusting sensitivity.
 
+### **Live DEMO Vidio file link** 
+[https://1drv.ms/v/c/055e16b097a6a52c/Eb8uWG_Nxj9PrGWzpxw56BUBlWpLXtwctJq7Q3PPJIgExg?e=kDwXI6]
+
 ## Requirements
 
 Ensure you have the following dependencies installed before running the program:
