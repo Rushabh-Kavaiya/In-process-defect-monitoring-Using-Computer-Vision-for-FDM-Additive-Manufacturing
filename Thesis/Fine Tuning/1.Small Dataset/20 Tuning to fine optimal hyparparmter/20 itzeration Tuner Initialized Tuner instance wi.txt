@@ -1,0 +1,401 @@
+Tuner: Initialized Tuner instance with 'tune_dir=runs/detect/tune4'
+Tuner: 💡 Learn about tuning at https://docs.ultralytics.com/guides/hyperparameter-tuning
+Tuner: Starting iteration 1/20 with hyperparameters: {'lr0': 0.01, 'degrees': 0.0, 'weight_decay': 0.0005, 'lrf': 0.01, 'mosaic': 1.0, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 1/20 iterations complete ✅ (297.38s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.546 observed at iteration 1
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.83411, 'metrics/recall(B)': 0.78783, 'metrics/mAP50(B)': 0.81591, 'metrics/mAP50-95(B)': 0.51601, 'val/box_loss': 1.48646, 'val/cls_loss': 1.13378, 'val/dfl_loss': 1.54633, 'fitness': 0.546}
+Tuner: Best fitness model is runs/detect/train3
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.01
+degrees: 0.0
+weight_decay: 0.0005
+lrf: 0.01
+mosaic: 1.0
+mixup: 0.0
+
+Tuner: Starting iteration 2/20 with hyperparameters: {'lr0': 0.00992, 'degrees': 0.0, 'weight_decay': 0.00045, 'lrf': 0.01128, 'mosaic': 1.0, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 2/20 iterations complete ✅ (593.75s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.54973 observed at iteration 2
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.8359, 'metrics/recall(B)': 0.80632, 'metrics/mAP50(B)': 0.82319, 'metrics/mAP50-95(B)': 0.51934, 'val/box_loss': 1.47356, 'val/cls_loss': 1.13548, 'val/dfl_loss': 1.54341, 'fitness': 0.54973}
+Tuner: Best fitness model is runs/detect/train4
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00992
+degrees: 0.0
+weight_decay: 0.00045
+lrf: 0.01128
+mosaic: 1.0
+mixup: 0.0
+
+Tuner: Starting iteration 3/20 with hyperparameters: {'lr0': 0.00973, 'degrees': 0.0, 'weight_decay': 0.00044, 'lrf': 0.0115, 'mosaic': 0.97329, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 3/20 iterations complete ✅ (889.10s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55 observed at iteration 3
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.80201, 'metrics/recall(B)': 0.7929, 'metrics/mAP50(B)': 0.8224, 'metrics/mAP50-95(B)': 0.51973, 'val/box_loss': 1.43031, 'val/cls_loss': 1.15656, 'val/dfl_loss': 1.60312, 'fitness': 0.55}
+Tuner: Best fitness model is runs/detect/train5
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00973
+degrees: 0.0
+weight_decay: 0.00044
+lrf: 0.0115
+mosaic: 0.97329
+mixup: 0.0
+
+Tuner: Starting iteration 4/20 with hyperparameters: {'lr0': 0.00981, 'degrees': 0.0, 'weight_decay': 0.00044, 'lrf': 0.0115, 'mosaic': 0.95308, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 4/20 iterations complete ✅ (1184.71s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55 observed at iteration 3
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.80201, 'metrics/recall(B)': 0.7929, 'metrics/mAP50(B)': 0.8224, 'metrics/mAP50-95(B)': 0.51973, 'val/box_loss': 1.43031, 'val/cls_loss': 1.15656, 'val/dfl_loss': 1.60312, 'fitness': 0.55}
+Tuner: Best fitness model is runs/detect/train5
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00973
+degrees: 0.0
+weight_decay: 0.00044
+lrf: 0.0115
+mosaic: 0.97329
+mixup: 0.0
+
+Tuner: Starting iteration 5/20 with hyperparameters: {'lr0': 0.0098, 'degrees': 0.0, 'weight_decay': 0.00044, 'lrf': 0.01332, 'mosaic': 1.0, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 5/20 iterations complete ✅ (1480.18s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55 observed at iteration 3
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.80201, 'metrics/recall(B)': 0.7929, 'metrics/mAP50(B)': 0.8224, 'metrics/mAP50-95(B)': 0.51973, 'val/box_loss': 1.43031, 'val/cls_loss': 1.15656, 'val/dfl_loss': 1.60312, 'fitness': 0.55}
+Tuner: Best fitness model is runs/detect/train5
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00973
+degrees: 0.0
+weight_decay: 0.00044
+lrf: 0.0115
+mosaic: 0.97329
+mixup: 0.0
+
+Tuner: Starting iteration 6/20 with hyperparameters: {'lr0': 0.00992, 'degrees': 0.0, 'weight_decay': 0.00049, 'lrf': 0.01193, 'mosaic': 0.98567, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 6/20 iterations complete ✅ (1776.43s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55 observed at iteration 3
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.80201, 'metrics/recall(B)': 0.7929, 'metrics/mAP50(B)': 0.8224, 'metrics/mAP50-95(B)': 0.51973, 'val/box_loss': 1.43031, 'val/cls_loss': 1.15656, 'val/dfl_loss': 1.60312, 'fitness': 0.55}
+Tuner: Best fitness model is runs/detect/train5
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00973
+degrees: 0.0
+weight_decay: 0.00044
+lrf: 0.0115
+mosaic: 0.97329
+mixup: 0.0
+
+Tuner: Starting iteration 7/20 with hyperparameters: {'lr0': 0.01029, 'degrees': 0.0, 'weight_decay': 0.00051, 'lrf': 0.01013, 'mosaic': 1.0, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 7/20 iterations complete ✅ (2072.35s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55 observed at iteration 3
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.80201, 'metrics/recall(B)': 0.7929, 'metrics/mAP50(B)': 0.8224, 'metrics/mAP50-95(B)': 0.51973, 'val/box_loss': 1.43031, 'val/cls_loss': 1.15656, 'val/dfl_loss': 1.60312, 'fitness': 0.55}
+Tuner: Best fitness model is runs/detect/train5
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00973
+degrees: 0.0
+weight_decay: 0.00044
+lrf: 0.0115
+mosaic: 0.97329
+mixup: 0.0
+
+Tuner: Starting iteration 8/20 with hyperparameters: {'lr0': 0.00999, 'degrees': 0.0, 'weight_decay': 0.00043, 'lrf': 0.01108, 'mosaic': 0.99893, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 8/20 iterations complete ✅ (2367.42s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55742 observed at iteration 8
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.86016, 'metrics/recall(B)': 0.79596, 'metrics/mAP50(B)': 0.83462, 'metrics/mAP50-95(B)': 0.52662, 'val/box_loss': 1.48867, 'val/cls_loss': 1.10565, 'val/dfl_loss': 1.57469, 'fitness': 0.55742}
+Tuner: Best fitness model is runs/detect/train10
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00999
+degrees: 0.0
+weight_decay: 0.00043
+lrf: 0.01108
+mosaic: 0.99893
+mixup: 0.0
+
+Tuner: Starting iteration 9/20 with hyperparameters: {'lr0': 0.01128, 'degrees': 0.0, 'weight_decay': 0.00037, 'lrf': 0.0119, 'mosaic': 1.0, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 9/20 iterations complete ✅ (2663.88s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55742 observed at iteration 8
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.86016, 'metrics/recall(B)': 0.79596, 'metrics/mAP50(B)': 0.83462, 'metrics/mAP50-95(B)': 0.52662, 'val/box_loss': 1.48867, 'val/cls_loss': 1.10565, 'val/dfl_loss': 1.57469, 'fitness': 0.55742}
+Tuner: Best fitness model is runs/detect/train10
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00999
+degrees: 0.0
+weight_decay: 0.00043
+lrf: 0.01108
+mosaic: 0.99893
+mixup: 0.0
+
+Tuner: Starting iteration 10/20 with hyperparameters: {'lr0': 0.01011, 'degrees': 0.0, 'weight_decay': 0.00046, 'lrf': 0.01172, 'mosaic': 0.99391, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 10/20 iterations complete ✅ (2960.77s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55742 observed at iteration 8
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.86016, 'metrics/recall(B)': 0.79596, 'metrics/mAP50(B)': 0.83462, 'metrics/mAP50-95(B)': 0.52662, 'val/box_loss': 1.48867, 'val/cls_loss': 1.10565, 'val/dfl_loss': 1.57469, 'fitness': 0.55742}
+Tuner: Best fitness model is runs/detect/train10
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00999
+degrees: 0.0
+weight_decay: 0.00043
+lrf: 0.01108
+mosaic: 0.99893
+mixup: 0.0
+
+Tuner: Starting iteration 11/20 with hyperparameters: {'lr0': 0.00846, 'degrees': 0.0, 'weight_decay': 0.00043, 'lrf': 0.01223, 'mosaic': 1.0, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 11/20 iterations complete ✅ (3256.78s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55742 observed at iteration 8
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.86016, 'metrics/recall(B)': 0.79596, 'metrics/mAP50(B)': 0.83462, 'metrics/mAP50-95(B)': 0.52662, 'val/box_loss': 1.48867, 'val/cls_loss': 1.10565, 'val/dfl_loss': 1.57469, 'fitness': 0.55742}
+Tuner: Best fitness model is runs/detect/train10
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00999
+degrees: 0.0
+weight_decay: 0.00043
+lrf: 0.01108
+mosaic: 0.99893
+mixup: 0.0
+
+Tuner: Starting iteration 12/20 with hyperparameters: {'lr0': 0.01061, 'degrees': 0.0, 'weight_decay': 0.00051, 'lrf': 0.01161, 'mosaic': 1.0, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 12/20 iterations complete ✅ (3553.11s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55742 observed at iteration 8
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.86016, 'metrics/recall(B)': 0.79596, 'metrics/mAP50(B)': 0.83462, 'metrics/mAP50-95(B)': 0.52662, 'val/box_loss': 1.48867, 'val/cls_loss': 1.10565, 'val/dfl_loss': 1.57469, 'fitness': 0.55742}
+Tuner: Best fitness model is runs/detect/train10
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00999
+degrees: 0.0
+weight_decay: 0.00043
+lrf: 0.01108
+mosaic: 0.99893
+mixup: 0.0
+
+Tuner: Starting iteration 13/20 with hyperparameters: {'lr0': 0.00928, 'degrees': 0.0, 'weight_decay': 0.00037, 'lrf': 0.01093, 'mosaic': 0.90702, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 13/20 iterations complete ✅ (3848.48s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55742 observed at iteration 8
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.86016, 'metrics/recall(B)': 0.79596, 'metrics/mAP50(B)': 0.83462, 'metrics/mAP50-95(B)': 0.52662, 'val/box_loss': 1.48867, 'val/cls_loss': 1.10565, 'val/dfl_loss': 1.57469, 'fitness': 0.55742}
+Tuner: Best fitness model is runs/detect/train10
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00999
+degrees: 0.0
+weight_decay: 0.00043
+lrf: 0.01108
+mosaic: 0.99893
+mixup: 0.0
+
+Tuner: Starting iteration 14/20 with hyperparameters: {'lr0': 0.00999, 'degrees': 0.0, 'weight_decay': 0.00043, 'lrf': 0.0111, 'mosaic': 0.99691, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 14/20 iterations complete ✅ (4143.43s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55742 observed at iteration 8
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.86016, 'metrics/recall(B)': 0.79596, 'metrics/mAP50(B)': 0.83462, 'metrics/mAP50-95(B)': 0.52662, 'val/box_loss': 1.48867, 'val/cls_loss': 1.10565, 'val/dfl_loss': 1.57469, 'fitness': 0.55742}
+Tuner: Best fitness model is runs/detect/train10
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00999
+degrees: 0.0
+weight_decay: 0.00043
+lrf: 0.01108
+mosaic: 0.99893
+mixup: 0.0
+
+Tuner: Starting iteration 15/20 with hyperparameters: {'lr0': 0.00842, 'degrees': 0.0, 'weight_decay': 0.00043, 'lrf': 0.01218, 'mosaic': 0.99636, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 15/20 iterations complete ✅ (4438.98s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55742 observed at iteration 8
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.86016, 'metrics/recall(B)': 0.79596, 'metrics/mAP50(B)': 0.83462, 'metrics/mAP50-95(B)': 0.52662, 'val/box_loss': 1.48867, 'val/cls_loss': 1.10565, 'val/dfl_loss': 1.57469, 'fitness': 0.55742}
+Tuner: Best fitness model is runs/detect/train10
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00999
+degrees: 0.0
+weight_decay: 0.00043
+lrf: 0.01108
+mosaic: 0.99893
+mixup: 0.0
+
+Tuner: Starting iteration 16/20 with hyperparameters: {'lr0': 0.00846, 'degrees': 0.0, 'weight_decay': 0.00037, 'lrf': 0.01, 'mosaic': 0.97685, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 16/20 iterations complete ✅ (4735.16s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55852 observed at iteration 16
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.85362, 'metrics/recall(B)': 0.7682, 'metrics/mAP50(B)': 0.82596, 'metrics/mAP50-95(B)': 0.5288, 'val/box_loss': 1.4474, 'val/cls_loss': 1.06426, 'val/dfl_loss': 1.56842, 'fitness': 0.55852}
+Tuner: Best fitness model is runs/detect/train18
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00846
+degrees: 0.0
+weight_decay: 0.00037
+lrf: 0.01
+mosaic: 0.97685
+mixup: 0.0
+
+Tuner: Starting iteration 17/20 with hyperparameters: {'lr0': 0.009, 'degrees': 0.0, 'weight_decay': 0.00037, 'lrf': 0.01051, 'mosaic': 0.97685, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 17/20 iterations complete ✅ (5032.10s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55852 observed at iteration 16
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.85362, 'metrics/recall(B)': 0.7682, 'metrics/mAP50(B)': 0.82596, 'metrics/mAP50-95(B)': 0.5288, 'val/box_loss': 1.4474, 'val/cls_loss': 1.06426, 'val/dfl_loss': 1.56842, 'fitness': 0.55852}
+Tuner: Best fitness model is runs/detect/train18
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00846
+degrees: 0.0
+weight_decay: 0.00037
+lrf: 0.01
+mosaic: 0.97685
+mixup: 0.0
+
+Tuner: Starting iteration 18/20 with hyperparameters: {'lr0': 0.00987, 'degrees': 0.0, 'weight_decay': 0.00043, 'lrf': 0.01108, 'mosaic': 1.0, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 18/20 iterations complete ✅ (5327.54s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55852 observed at iteration 16
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.85362, 'metrics/recall(B)': 0.7682, 'metrics/mAP50(B)': 0.82596, 'metrics/mAP50-95(B)': 0.5288, 'val/box_loss': 1.4474, 'val/cls_loss': 1.06426, 'val/dfl_loss': 1.56842, 'fitness': 0.55852}
+Tuner: Best fitness model is runs/detect/train18
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00846
+degrees: 0.0
+weight_decay: 0.00037
+lrf: 0.01
+mosaic: 0.97685
+mixup: 0.0
+
+Tuner: Starting iteration 19/20 with hyperparameters: {'lr0': 0.01061, 'degrees': 0.0, 'weight_decay': 0.00049, 'lrf': 0.01216, 'mosaic': 1.0, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 19/20 iterations complete ✅ (5622.50s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55852 observed at iteration 16
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.85362, 'metrics/recall(B)': 0.7682, 'metrics/mAP50(B)': 0.82596, 'metrics/mAP50-95(B)': 0.5288, 'val/box_loss': 1.4474, 'val/cls_loss': 1.06426, 'val/dfl_loss': 1.56842, 'fitness': 0.55852}
+Tuner: Best fitness model is runs/detect/train18
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00846
+degrees: 0.0
+weight_decay: 0.00037
+lrf: 0.01
+mosaic: 0.97685
+mixup: 0.0
+
+Tuner: Starting iteration 20/20 with hyperparameters: {'lr0': 0.01155, 'degrees': 0.0, 'weight_decay': 0.00043, 'lrf': 0.01108, 'mosaic': 0.99893, 'mixup': 0.0}
+Saved runs/detect/tune4/tune_scatter_plots.png
+Saved runs/detect/tune4/tune_fitness.png
+
+Tuner: 20/20 iterations complete ✅ (5918.47s)
+Tuner: Results saved to runs/detect/tune4
+Tuner: Best fitness=0.55852 observed at iteration 16
+Tuner: Best fitness metrics are {'metrics/precision(B)': 0.85362, 'metrics/recall(B)': 0.7682, 'metrics/mAP50(B)': 0.82596, 'metrics/mAP50-95(B)': 0.5288, 'val/box_loss': 1.4474, 'val/cls_loss': 1.06426, 'val/dfl_loss': 1.56842, 'fitness': 0.55852}
+Tuner: Best fitness model is runs/detect/train18
+Tuner: Best fitness hyperparameters are printed below.
+
+Printing 'runs/detect/tune4/best_hyperparameters.yaml'
+
+lr0: 0.00846
+degrees: 0.0
+weight_decay: 0.00037
+lrf: 0.01
+mosaic: 0.97685
+mixup: 0.0
