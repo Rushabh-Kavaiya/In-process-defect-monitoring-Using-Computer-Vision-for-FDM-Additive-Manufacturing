@@ -1,101 +1,54 @@
-
-# README: In-Process Defect Monitoring Using Computer Vision for FDM-THD
+# Thesis File Structure
 
 ## Overview
+This repository contains files and results from the thesis research on fine-tuning object detection models for FDM additive manufacturing. The structure is divided into three main sections:
 
-This project implements real-time defect monitoring using computer vision and YOLO (You Only Look Once) for FDM-THD (Fused Deposition Modeling). It detects defects such as cracks, layer shifts, spaghetti, and stringing during 3D printing. When a defect is detected above a certain threshold, an alarm sound is played. The system provides a graphical user interface (GUI) for monitoring defects and adjusting sensitivity.
+1. **Final Model and Python Code for Local Run** – Contains the final implementation and trained models.
+2. **ML Algorithm Comparison** – Stores performance comparisons of different models.
+3. **YOLO Fine-Tuning** – Includes fine-tuning experiments on small and large datasets.
 
-## Requirements
+---
 
-Ensure you have the following dependencies installed before running the program:
+## 1. Final Model and Python Code for Local Run
+This section includes all necessary files to execute the final trained model locally.
 
-### Python Libraries:
+### **Python Code for Locally Run**
+- `V11s/`
+  - `alarm.mp3` – Audio notification file.
+  - `best.pt` – Final trained YOLO model.
+  - `main.py` – Python script to run the trained model.
+  - `ReadMe.txt` – Additional instructions for execution.
+- `.idea/` – Project-specific settings for IDE.
 
-Install the required dependencies using the following command:
+### **Training Code (.ipynb)**
+- `In_process_defect_monitoring_Using_Computer_Vision_for_FDM_Additive_Manufacturing.ipynb` – Notebook containing the final training procedure with optimized hyperparameters.
 
-```
-pip install ultralytics pygame opencv-python numpy pillow tk
-```
+---
 
-### Additional Requirements:
+## 2. ML Algorithm Comparison
+This section evaluates different machine learning models for object detection.
 
--   **YOLO Model:**  `best.pt` (Ensure you have the trained YOLO model in the project directory.)
-    
--   **Alarm Sound:**  `alarm.mp3` (Place an appropriate alarm sound file in the project directory.)
-    
--   **Python Environment:** Recommended to use **PyCharm** or a similar IDE.
-    
+- `Baseline_YOLOv11s_0.855.ipynb` – YOLO baseline model results.
+- `Faster R-cnn_ResNet50_Detectron 2_0.828.ipynb` – Faster R-CNN model implementation.
+- `Rtdetr_50vd_COCO_0.730.ipynb` – Results from RT-DETR model.
+- `SSD_movilenet_v2_0.791.ipynb` – Results from SSD MobileNetV2 model.
 
-## Files in the Project
+Each file contains model training, validation, and performance metrics for evaluation.
 
--   `main.py` - The Python script to run the defect detection system.
-    
--   `best.pt` - The trained YOLO model file.
-    
--   `alarm.mp3` - The sound file played when defects exceed the threshold.
-   
-    
+---
 
-## How to Run
+## 3. YOLO Fine-Tuning
+Fine-tuning experiments conducted on different datasets to optimize hyperparameters.
 
-1.  **Ensure the necessary files are in the project directory:**
-    
-    -   `main.py`
-        
-    -   `best.pt`
-        
-    -   `alarm.mp3`
-        
-2.  **Run the Python script:** Open a terminal or command prompt and navigate to the project directory. Then execute:
-    
-    ```
-    python main.py
-    ```
-    
-3.  **Using the GUI:**
-    
-    -   The video feed will display real-time defect detection.
-        
-    -   Defects detected will be logged in the table.
-        
-    -   Adjust the confidence threshold using the slider.
-        
-    -   Modify defect detection thresholds and apply changes.
-        
-    -   Start or stop detection using the provided buttons.
-        
-    -   Reset logs and alarms using the reset button.
-        
+### **3.1 Small Dataset**
+- `20 Tuning to fine optimal hyperparameter/`
+  - `20 iteration Tuner Initialized Tuner instance wi.txt` – Log of tuning iterations.
+  - Various `.png` and `.txt` files – Hyperparameter performance at different iterations.
 
-## Features
+### **3.2 Big Dataset**
+- **Fine-Tuning_All_Experiments/** – Results from large dataset experiments.
+  - `Map0.50 comparison of all model.xlsx` – Performance comparison of all models.
+  - Multiple result `.csv` files for each tuning experiment.
+  - Various `.png` files showing graphical performance insights.
 
--   **Real-time defect detection** using a YOLO-based deep learning model.
-    
--   **Adjustable confidence threshold** for detection sensitivity.
-    
--   **Logging of detected defects** with timestamps and confidence values.
-    
--   **Customizable defect thresholds** to set alert levels.
-    
--   **Audio alerts** when defect counts exceed thresholds.
-    
--   **Graphical User Interface (GUI)** for monitoring and control.
-    
-
-## Troubleshooting
-
--   If the webcam does not start, ensure it is properly connected and accessible. or change in code here for swapping camera : "cap =  cv2.VideoCapture(1) " where change to 0 if you want to swap the camera.
-    
--   If the YOLO model does not load, verify that `best.pt` is in the correct path.
-    
--   If sound alerts do not work, ensure `alarm.mp3` is available and `pygame.mixer` is installed.
-    
--   If an error occurs, check dependencies using `pip list` and install missing packages.
-    
-
-## Notes
-
--   Press **'q'** to manually exit the program if needed.
-    
--   Ensure system permissions allow access to the camera and audio output.
- 
+Each subfolder contains results from experiments with different hyperparameter sets, sorted by performance.
